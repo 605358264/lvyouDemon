@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+}
+
+.AppLogo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.AppLink {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.img3{
+  width:200px;
+  height:200px;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-bottom:50px
+}
+.countWrap{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;;
+}
+.count{
+  display: block;
+}
+.imgWrap{
+  display: flex;
+  flex-wrap: wrap;
+  width:100%;
+}
+.img1{
+  position: relative;
+}
+.addCar{
+  position: absolute;
+  bottom: 20px;
+  left:100px
+}
